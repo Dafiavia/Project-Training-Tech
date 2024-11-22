@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #45a049;
+}
+
+.bg-gradient-dark {
+    background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?nature,environment');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+.custom-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 2rem;
+}
+
+.tag {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.progress {
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+}
